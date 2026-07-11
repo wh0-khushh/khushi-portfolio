@@ -1,163 +1,164 @@
-# Khushi Kumari — Software Engineering Portfolio
+<p align="center">
+  <img src="./preview.png" alt="Khushi Kumari Portfolio Preview" width="100%">
+</p>
+
+<h1 align="center">
+Khushi Kumari
+</h1>
+
+<p align="center">
+<b>Software Engineering Portfolio</b>
+</p>
+
+<p align="center">
+Computer Science Engineering Student • Frontend Developer Intern • Aspiring Full Stack Developer
+</p>
 
 <p align="center">
 
-Modern developer portfolio built with Angular, showcasing software engineering projects, internship experience, technical skills, certifications and professional achievements.
+<img src="https://img.shields.io/badge/Angular-14-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Angular%20Material-757575?style=for-the-badge&logo=angular&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Netlify-Live-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
 
 </p>
 
 ---
 
-## Live Website
+# 🌐 Live Portfolio
 
-🔗 https://khushi-kumariportfolio.netlify.app
-
----
-
-## Preview
-
-<p align="center">
-
-<!-- Add portfolio-preview.png here -->
-
-<img src="./preview.png" width="100%" alt="Portfolio Preview"/>
-
-</p>
+### 🔗 https://khushi-kumariportfolio.netlify.app/
 
 ---
 
-# About
+# 📖 Overview
 
-This portfolio represents my software engineering journey as a Computer Science Engineering student and Frontend Developer Intern.
+This repository contains my personal software engineering portfolio built with **Angular**.
 
-The website highlights:
+The portfolio showcases my professional experience, software engineering projects, technical skills, certifications, and career journey as a Computer Science Engineering student and Frontend Developer Intern.
 
-- Professional introduction
-- Internship experience
-- Featured software projects
-- Technical skills
-- Certifications
-- Resume
-- Contact information
-
-The project focuses on clean architecture, responsive design, reusable Angular components and modern UI practices.
+The application is designed using a modern component-based architecture with responsive layouts, clean UI principles, reusable components, and optimized performance across desktop, tablet, and mobile devices.
 
 ---
 
-# Features
+# ✨ Highlights
 
-- Responsive Design
-- Modern UI/UX
-- Dark Mode Toggle
-- Smooth Scrolling
-- Resume Download
-- Project Showcase
-- Professional Timeline
+- Modern UI & Clean Design
+- Fully Responsive Layout
+- Angular Component Architecture
+- Professional Project Showcase
+- Internship Experience Timeline
 - Skills Dashboard
 - Certifications Section
-- Contact Section
+- Resume Download
+- Dark Mode Toggle
+- Smooth Scrolling Navigation
 - Mobile Friendly
-- Optimized Deployment
+- Netlify Deployment
 
 ---
 
-# Built With
+# 🛠 Tech Stack
 
-| Technology | Usage |
-|------------|-------|
+| Technology | Purpose |
+|------------|---------|
 | Angular | Frontend Framework |
-| TypeScript | Programming Language |
-| HTML5 | Structure |
+| TypeScript | Application Logic |
+| HTML5 | Markup |
 | CSS3 | Styling |
 | Angular Material | UI Components |
+| JavaScript | Client-side Functionality |
 | Git | Version Control |
-| GitHub | Source Control |
+| GitHub | Source Code Management |
 | Netlify | Deployment |
 
 ---
 
-# Project Structure
+# 📂 Portfolio Sections
 
-```
-src
-│
-├── app
-│   ├── components
-│   ├── services
-│   ├── models
-│   └── shared
-│
-├── assets
-│   ├── images
-│   ├── logos
-│   └── resume
-│
-└── environments
-```
+- 🏠 Hero
+- 👩 About Me
+- 💼 Experience
+- 🚀 Featured Projects
+- ⚡ Technical Skills
+- 🏆 Certifications
+- 📞 Contact
 
 ---
 
-# Sections
+# 💼 Professional Experience
 
-✔ Hero
-
-✔ About
-
-✔ Experience
-
-✔ Projects
-
-✔ Skills
-
-✔ Certifications
-
-✔ Contact
-
----
-
-# Featured Project
-
-## Aurelia Reserve
-
-Luxury Resort Landing Page built using Angular.
-
-Highlights
-
-- Responsive Layout
-- Component-Based Architecture
-- Modern UI
-- Image Gallery
-- Mobile Navigation
-
----
-
-# Experience
-
-**Frontend Developer Intern**
-
-WorkSeer
+## Frontend Developer Intern — WorkSeer
 
 Cloud-Based Global Trade Management Platform
 
-Working on enterprise Angular applications while expanding backend knowledge in Java, Spring Boot and SQL.
+Working on enterprise Angular applications while strengthening frontend architecture, reusable component development, responsive UI implementation, and expanding backend knowledge with Java, Spring Boot, REST APIs, and SQL.
 
 ---
 
-# Certifications
+# 🚀 Featured Project
 
-- Tata GenAI Powered Data Analytics
-- Deloitte Data Analytics
-- Skyscanner Frontend Engineering
-- DATACOM Software Development
+## Aurelia Reserve
+
+Luxury Resort Landing Page developed using Angular.
+
+### Features
+
+- Responsive Design
+- Reusable Components
+- Modern UI
+- Mobile Navigation
+- Interactive Gallery
+- Elegant User Experience
+
+### Live Demo
+
+https://aurelia-reserve.netlify.app
+
+### Repository
+
+https://github.com/wh0-khushh/aurelia-reserve
 
 ---
 
-# Installation
+# 📂 Project Structure
+
+```text
+src/
+│
+├── app/
+│   ├── components/
+│   ├── models/
+│   ├── services/
+│   └── shared/
+│
+├── assets/
+│   ├── images/
+│   ├── logos/
+│   └── resume/
+│
+└── environments/
+```
+
+---
+
+# 🚀 Run Locally
 
 Clone the repository
 
 ```bash
 git clone https://github.com/wh0-khushh/khushi-portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd khushi-portfolio
 ```
 
 Install dependencies
@@ -166,64 +167,81 @@ Install dependencies
 npm install
 ```
 
-Run locally
+Run development server
 
 ```bash
 ng serve
 ```
 
-Build production
+Visit
 
-```bash
-ng build
+```
+http://localhost:4200
 ```
 
 ---
 
-# Performance
+# 📦 Production Build
 
-- Responsive
-- Optimized Assets
-- Lazy Loading Ready
-- SEO Friendly Structure
-- Accessible Components
+```bash
+ng build --configuration production
+```
 
 ---
 
-# Deployment
+# 📱 Responsive Design
 
-Hosted using **Netlify**
+Optimized for
 
-Automatic deployment from GitHub.
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
 
 ---
 
-# Connect With Me
+# 📈 Future Improvements
 
-LinkedIn
+- Blog Section
+- Backend Integration
+- Dynamic Project CMS
+- SEO Enhancements
+- Performance Optimization
+- Analytics Dashboard
+- Additional Case Studies
 
-www.linkedin.com/in/khushi-kumari-b95652409
+---
 
-GitHub
+# 🤝 Connect With Me
+
+### 🌐 Portfolio
+
+https://khushi-kumariportfolio.netlify.app/
+
+### GitHub
 
 https://github.com/wh0-khushh
 
-Email
+### LinkedIn
+
+https://www.linkedin.com/in/khushi-kumari-b95652409
+
+### Email
 
 khushhiii143offc@gmail.com
 
 ---
 
-## License
+# ⭐ Support
 
-MIT License
+If you found this project helpful or inspiring, consider giving it a ⭐ on GitHub.
+
+It motivates me to continue building high-quality software projects.
 
 ---
 
-<p align="center">
+# 📄 License
 
-Designed & Developed by **Khushi Kumari**
+This project is intended for educational and portfolio purposes.
 
-Built with ❤️ using Angular
-
-</p>
+© 2026 Khushi Kumari. All Rights Reserved.
