@@ -202,7 +202,7 @@ Automatic deployment from GitHub.
 
 LinkedIn
 
-www.linkedin.com/in/khushi-kumari-dev
+www.linkedin.com/in/khushi-kumari-b95652409
 
 GitHub
 
