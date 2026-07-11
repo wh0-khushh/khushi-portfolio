@@ -10,7 +10,7 @@ Modern developer portfolio built with Angular, showcasing software engineering p
 
 ## Live Website
 
-🔗 https://khushitheportfolio.netlify.app
+🔗 https://khushi-kumariportfolio.netlify.app
 
 ---
 
