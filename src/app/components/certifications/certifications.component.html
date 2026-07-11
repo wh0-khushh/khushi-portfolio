@@ -1,0 +1,86 @@
+<section class="certifications section" id="certifications">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+                Certifications
+            </span>
+
+            <h2>
+
+                Professional certifications and virtual internship experiences that strengthened my practical development skills.
+
+            </h2>
+
+        </div>
+
+        <div class="certifications-grid">
+
+            <div
+                class="certificate-card"
+                *ngFor="let certificate of certificates">
+
+                <div class="certificate-top">
+
+                    <div class="certificate-icon">
+
+                        <img
+                            [src]="certificate.logo"
+                            [alt]="certificate.issuer">
+
+                    </div>
+
+                    <span class="certificate-type">
+
+                        {{certificate.type}}
+
+                    </span>
+
+                </div>
+
+                <h3>
+
+                    {{certificate.title}}
+
+                </h3>
+
+                <p class="issuer">
+
+                    {{certificate.issuer}}
+
+                </p>
+
+                <p class="certificate-description">
+
+                    {{certificate.description}}
+
+                </p>
+
+                <div class="certificate-footer">
+
+                    <span>
+
+                        {{certificate.year}}
+
+                    </span>
+
+                    <a
+
+                        [href]="certificate.link"
+                        target="_blank">
+
+                        View Credential
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,116 @@
+<section class="about section" id="about">
+
+    <div class="container">
+
+        <!-- ================= SECTION HEADER ================= -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+
+                About Me
+
+            </span>
+
+            <h2>
+
+                Designing clean interfaces while
+                continuously growing as a software engineer.
+
+            </h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <!-- ================= LEFT ================= -->
+
+            <div class="about-content">
+
+                <h3>
+
+                    Frontend Developer with a passion for building modern web applications.
+
+                </h3>
+
+                <p>
+
+                    I'm <strong>Khushi Kumari</strong>, a Computer Science Engineering
+                    student at Jharkhand University of Technology and currently a
+                    Frontend Developer Intern at WorkSeer.
+
+                </p>
+
+                <p>
+
+                    I enjoy transforming ideas into responsive, accessible and
+                    user-friendly applications using Angular, TypeScript and
+                    modern frontend technologies. Alongside frontend development,
+                    I'm expanding my backend knowledge with Java, Spring Boot and SQL
+                    to become a full-stack software engineer.
+
+                </p>
+
+                <div class="about-highlights">
+
+                    <div
+                        class="highlight-card"
+                        *ngFor="let item of highlights">
+
+                        <span class="material-icons">
+
+                            {{item.icon}}
+
+                        </span>
+
+                        <div>
+
+                            <h4>
+
+                                {{item.title}}
+
+                            </h4>
+
+                            <p>
+
+                                {{item.subtitle}}
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ================= RIGHT ================= -->
+
+            <div class="about-stats">
+
+                <div
+                    class="stat-card"
+                    *ngFor="let stat of stats">
+
+                    <h2>
+
+                        {{stat.value}}
+
+                    </h2>
+
+                    <span>
+
+                        {{stat.label}}
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,104 @@
+<section class="experience section" id="experience">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+
+                Experience
+
+            </span>
+
+            <h2>
+
+                My journey from technical training to contributing to enterprise software.
+
+            </h2>
+
+        </div>
+
+        <div class="experience-wrapper">
+
+            <!-- Company Card -->
+
+        <div class="company-card">
+
+            <img
+                src="assets/logos/Logo.png"
+                alt="WorkSeer Logo"
+                class="company-logo">
+
+            <p class="company-tagline">
+
+                Cloud-Based Global Trade Management Platform
+
+           </p>
+
+            <span class="company-role">
+
+               Frontend Developer Intern • July 2025 - Present
+
+            </span>
+
+        </div>
+            <!-- Timeline -->
+
+            <div class="journey">
+
+                <div
+                    class="journey-item"
+                    *ngFor="let item of journey">
+
+                    <div class="journey-icon">
+
+                        <span class="material-icons">
+
+                            {{item.icon}}
+
+                        </span>
+
+                    </div>
+
+                    <div class="journey-content">
+
+                        <span class="journey-date">
+
+                            {{item.date}}
+
+                        </span>
+
+                        <h3>
+
+                            {{item.title}}
+
+                        </h3>
+
+                        <p>
+
+                            {{item.description}}
+
+                        </p>
+
+                        <ul *ngIf="item.points?.length">
+
+                            <li
+                                *ngFor="let point of item.points">
+
+                                {{point}}
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

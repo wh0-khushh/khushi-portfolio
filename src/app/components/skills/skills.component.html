@@ -1,0 +1,68 @@
+<section class="skills section" id="skills">
+
+    <div class="container">
+
+        <!-- ========================= -->
+        <!-- Section Heading -->
+        <!-- ========================= -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+
+                Skills
+
+            </span>
+
+            <h2>
+
+                Technologies, tools and programming languages I use to build modern web applications.
+
+            </h2>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Skills Grid -->
+        <!-- ========================= -->
+
+        <div class="skills-grid">
+
+            <div
+                class="skill-card"
+                *ngFor="let category of skillCategories">
+
+                <div class="card-header">
+
+                    <span class="material-icons">
+
+                        {{category.icon}}
+
+                    </span>
+
+                    <h3>
+
+                        {{category.title}}
+
+                    </h3>
+
+                </div>
+
+<div class="skill-list">
+
+    <div
+        class="skill-pill"
+        *ngFor="let skill of category.skills">
+
+        {{skill}}
+
+    </div>
+
+</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

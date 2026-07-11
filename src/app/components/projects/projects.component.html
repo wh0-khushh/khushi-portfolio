@@ -1,0 +1,149 @@
+<section class="projects section" id="projects">
+
+    <div class="container">
+
+        <!-- ========================= -->
+        <!-- Section Heading -->
+        <!-- ========================= -->
+
+        <div class="section-heading">
+
+            <span class="section-tag">
+
+                Projects
+
+            </span>
+
+            <h2>
+
+                Building products with clean architecture, modern UI and scalable frontend development.
+
+            </h2>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Featured Project -->
+        <!-- ========================= -->
+
+        <div class="featured-project">
+
+            <!-- Left -->
+
+            <div class="project-image">
+
+                <img
+                    [src]="featuredProject.image"
+                   [alt]="featuredProject.title">
+
+                <div class="project-overlay">
+
+                    <span>Angular 14</span>
+
+                    <span>TypeScript</span>
+
+                    <span>Responsive</span>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="project-content">
+
+                <span class="project-badge">
+
+                    Featured Project
+
+                </span>
+
+                <h3>
+
+                    {{featuredProject.title}}
+
+                </h3>
+
+                <h4>
+
+                    {{featuredProject.subtitle}}
+
+                </h4>
+
+                <p>
+
+                    {{featuredProject.description}}
+
+                </p>
+
+                <!-- Tech -->
+
+                <div class="project-tech">
+
+                    <span
+                        class="tech-pill"
+                        *ngFor="let tech of featuredProject.tech">
+
+                        {{tech}}
+
+                    </span>
+
+                </div>
+
+                <!-- Features -->
+
+                <div class="project-features">
+
+                    <div
+                        class="feature"
+                        *ngFor="let feature of featuredProject.features">
+
+                        <span class="material-icons">
+
+                            check_circle
+
+                        </span>
+
+                        {{feature}}
+
+                    </div>
+
+                </div>
+
+                <!-- Buttons -->
+
+                <div class="project-buttons">
+
+                    <a
+
+                        [href]="featuredProject.demo"
+
+                        target="_blank"
+
+                        class="btn btn-primary">
+
+                        Live Demo
+
+                    </a>
+
+                    <a
+
+                        [href]="featuredProject.github"
+
+                        target="_blank"
+
+                        class="btn btn-outline">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

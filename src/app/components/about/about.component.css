@@ -1,0 +1,245 @@
+/* ===================================================
+   ABOUT SECTION
+=================================================== */
+
+.about {
+    padding: 120px 0;
+    background:var(--background);
+}
+
+/* ===================================================
+   SECTION HEADING
+=================================================== */
+
+.section-heading {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 70px;
+}
+
+.section-tag {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: #eef4ff;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.section-heading h2 {
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    line-height: 1.2;
+    font-weight: 800;
+    color: var(--text);
+}
+
+/* ===================================================
+   LAYOUT
+=================================================== */
+
+.about-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 70px;
+    align-items: start;
+}
+
+/* ===================================================
+   LEFT CONTENT
+=================================================== */
+
+.about-content h3 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    line-height: 1.3;
+}
+
+.about-content p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+}
+
+.about-content strong {
+    color: var(--primary);
+}
+
+/* ===================================================
+   HIGHLIGHT CARDS
+=================================================== */
+
+.about-highlights {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.highlight-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 24px;
+    background:var(--background);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    transition: .35s ease;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, .05);
+}
+
+.highlight-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, .10);
+}
+
+.highlight-card .material-icons {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: var(--primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    flex-shrink: 0;
+}
+
+.highlight-card h4 {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.highlight-card p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* ===================================================
+   RIGHT STATS
+=================================================== */
+
+.about-stats {
+    display: grid;
+    gap: 24px;
+}
+
+.stat-card {
+    padding: 30px;
+    border-radius: 22px;
+    background:var(--background);
+    border: 1px solid var(--border);
+    text-align: center;
+    transition: .35s ease;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, .05);
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 42px rgba(15, 23, 42, .12);
+}
+
+.stat-card h2 {
+    font-size: 2.8rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.stat-card span {
+    color: var(--text-secondary);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+
+@media (max-width: 992px) {
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-highlights {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .about {
+        padding: 90px 0;
+    }
+
+    .about-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .section-heading {
+        margin-bottom: 50px;
+    }
+
+    .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .about-content h3 {
+        font-size: 1.6rem;
+    }
+
+    .about-content p {
+        font-size: 15px;
+    }
+
+    .highlight-card {
+        padding: 20px;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-card {
+        padding: 24px;
+    }
+
+    .stat-card h2 {
+        font-size: 2.3rem;
+    }
+
+}

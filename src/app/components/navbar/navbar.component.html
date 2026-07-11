@@ -1,0 +1,143 @@
+<div
+class="scroll-progress"
+[style.width.%]="scrollProgress">
+
+</div>
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <!-- ================= LOGO ================= -->
+
+        <a href="#hero" class="logo">
+
+            <div class="logo-box">
+                KK
+            </div>
+
+            <div class="logo-text">
+
+                <h3>Khushi Kumari</h3>
+
+                <span>Software Engineer</span>
+
+            </div>
+
+        </a>
+
+        <!-- ================= DESKTOP NAVIGATION ================= -->
+
+<nav class="nav-links">
+
+    <a href="#about">
+        About
+    </a>
+
+    <a href="#experience">
+        Experience
+    </a>
+
+    <a href="#projects">
+        Projects
+    </a>
+
+    <a href="#skills">
+        Skills
+    </a>
+
+    <a href="#certifications">
+        Certificates
+    </a>
+
+    <a href="#contact">
+        Contact
+    </a>
+
+</nav>
+
+        <!-- ================= ACTIONS ================= -->
+
+        <div class="nav-actions">
+
+            <button
+                class="theme-btn"
+                (click)="toggleTheme()"
+                aria-label="Toggle Theme">
+
+                <span class="material-icons">
+
+                    {{ darkMode ? 'light_mode' : 'dark_mode' }}
+
+                </span>
+
+            </button>
+
+            <a
+                href="assets/resume/theResume.pdf"
+                target="_blank"
+                class="resume-btn">
+
+                Resume ↗
+
+            </a>
+
+        </div>
+
+        <!-- ================= MOBILE BUTTON ================= -->
+
+        <button
+            class="menu-btn"
+            (click)="toggleMenu()">
+
+            <span class="material-icons">
+
+                {{ mobileMenuOpen ? 'close' : 'menu' }}
+
+            </span>
+
+        </button>
+
+    </div>
+
+    <!-- ================= MOBILE MENU ================= -->
+
+<div
+class="mobile-menu"
+[class.active]="mobileMenuOpen">
+
+    <a href="#about" (click)="closeMenu()">
+        About
+    </a>
+
+    <a href="#experience" (click)="closeMenu()">
+        Experience
+    </a>
+
+    <a href="#projects" (click)="closeMenu()">
+        Projects
+    </a>
+
+    <a href="#skills" (click)="closeMenu()">
+        Skills
+    </a>
+
+    <a href="#certifications" (click)="closeMenu()">
+        Certificates
+    </a>
+
+    <a href="#contact" (click)="closeMenu()">
+        Contact
+    </a>
+
+    <a
+        href="assets/resume/theResume.pdf"
+        target="_blank"
+        class="mobile-resume">
+
+        Resume ↗
+
+    </a>
+
+</div>
+
+</header>
