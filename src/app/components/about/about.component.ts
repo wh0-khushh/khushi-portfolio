@@ -7,56 +7,68 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  highlights = [
+highlights = [
 
-    {
-      icon: 'work',
-      title: 'Frontend Development',
-      subtitle: 'Building responsive Angular applications'
-    },
+{
+icon:'design_services',
+title:'Product Engineering',
+subtitle:'Building thoughtful digital experiences'
+},
 
-    {
-      icon: 'code',
-      title: 'Modern Technologies',
-      subtitle: 'Angular, TypeScript, JavaScript'
-    },
+{
+icon:'web',
+title:'Frontend Engineering',
+subtitle:'Angular • TypeScript • Responsive UI'
+},
 
-    {
-      icon: 'school',
-      title: 'Continuous Learning',
-      subtitle: 'Java, Spring Boot & Software Engineering'
-    },
+{
+icon:'architecture',
+title:'Component Architecture',
+subtitle:'Reusable, scalable Angular applications'
+},
 
-    {
-      icon: 'verified',
-      title: 'Professional Growth',
-      subtitle: 'Internships, projects & certifications'
-    }
+{
+icon:'trending_up',
+title:'Continuous Learning',
+subtitle:'Java • Spring Boot • Software Engineering'
+}
 
-  ];
+];
 
-  stats = [
+stats = [
 
-    {
-      value: '1+',
-      label: 'Internship'
-    },
+{
 
-    {
-      value: '10+',
-      label: 'Projects'
-    },
+value:'1+',
 
-    {
-      value: '5+',
-      label: 'Certificates'
-    },
+label:'Industry Internship'
 
-    {
-      value: '2023',
-      label: 'CSE Journey Started'
-    }
+},
 
-  ];
+{
+
+value:'10+',
+
+label:'Projects Built'
+
+},
+
+{
+
+value:'8+',
+
+label:'Certifications'
+
+},
+
+{
+
+value:'2023',
+
+label:'CSE Journey'
+
+}
+
+];
 
 }

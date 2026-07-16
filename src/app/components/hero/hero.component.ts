@@ -10,28 +10,37 @@ export class HeroComponent implements OnInit {
 
   technologies: string[] = [
 
-    'Angular',
-    'TypeScript',
-    'JavaScript',
-    'HTML5',
-    'CSS3',
-    'Java',
-    'Spring Boot',
-    'SQL',
-    'Git',
-    'GitHub'
+'Angular',
+
+'TypeScript',
+
+'SCSS',
+
+'Angular Material',
+
+'RxJS',
+
+'Java',
+
+'Spring Boot',
+
+'SQL',
+
+'Git',
+
+'Netlify'
 
   ];
 
-  roles: string[] = [
+roles = [
 
-    'Software Engineer Student',
-    'Frontend Developer Intern',
-    'Angular Developer',
-    'Full Stack Learner'
+'Frontend Developer Intern',
+'Frontend Product Engineer',
+'Angular Developer',
+'UI/UX Enthusiast',
+'Building Thoughtful Digital Products'
 
-  ];
-
+];
   currentRole = '';
 
   private roleIndex = 0;
