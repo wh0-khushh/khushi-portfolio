@@ -17,7 +17,7 @@ type:'Professional Certification',
 year:'2026',
 logo:'assets/logos/oracleLogo.jpg',
 description:'Successfully earned the Oracle Cloud Infrastructure (OCI) Certified AI Foundations Associate certification issued by Oracle University.',
-link:'https://catalog-education.oracle.com/ords/certview/sharebadge?id=9386314D9F3659202E01F3F72484B2424EAEB3A7DA4AD2DB2DF3BB30C4FE5677',
+link:'https://https://catalog-education.oracle.com/ords/certview/sharebadge?id=9386314D9F3659202E01F3F72484B2424EAEB3A7DA4AD2DB2DF3BB30C4FE5677',
 },
 
 {
