@@ -11,6 +11,16 @@ export class CertificationsComponent {
  certificates = [
 
 {
+title:'Oracle Cloud Infrastructure AI Foundations Associate',
+issuer:'Oracle',
+type:'Professional Certification',
+year:'2026',
+logo:'assets/logos/oracleLogo.jpg',
+description:'Earned the Oracle Cloud Infrastructure (OCI) Certified AI Foundations Associate certification through Oracle University.',
+link:'#https://catalog-education.oracle.com/ords/certview/sharebadge?id=9386314D9F3659202E01F3F72484B2424EAEB3A7DA4AD2DB2DF3BB30C4FE5677'
+},
+
+{
 title:'Skyscanner - Front-End Software Engineering',
 issuer:'Forage',
 type:'Job Simulation',
