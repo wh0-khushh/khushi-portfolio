@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.css']
 })
-
 export class ExperienceComponent {
 
   company = {
@@ -56,7 +55,7 @@ export class ExperienceComponent {
       title: 'Technical Assessment',
 
       description:
-        'Successfully cleared the technical assessment and interview process, leading to selection for the Frontend Developer Internship.'
+        'Successfully completed the technical assessment and interview process, leading to selection for the Frontend Developer Internship.'
 
     },
 
@@ -69,7 +68,7 @@ export class ExperienceComponent {
       title: 'Frontend Developer Intern',
 
       description:
-        'Contributing to enterprise Angular applications used for Global Trade Management while continuously improving frontend architecture and expanding backend knowledge.',
+        'Contributing to enterprise Angular applications for Global Trade Management while developing reusable UI components and expanding backend knowledge.',
 
       points: [
 
@@ -78,6 +77,8 @@ export class ExperienceComponent {
         'Building responsive user interfaces',
 
         'Working with Angular Material',
+
+        'Implementing Reactive Forms and client-side validation',
 
         'Integrating REST APIs',
 

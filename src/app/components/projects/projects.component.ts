@@ -5,19 +5,18 @@ import { Component } from '@angular/core';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-
 export class ProjectsComponent {
 
   featuredProject = {
 
     title: 'Aurelia Reserve',
 
-    subtitle: 'Luxury Resort Booking Experience',
+    subtitle: 'Luxury Resort Landing Page',
 
     image: 'assets/images/projects/aurelia-reserve.png',
 
     description:
-      'A modern and responsive luxury resort landing page developed using Angular 14. The project focuses on reusable component architecture, elegant UI design, smooth user experience and responsive layouts across all screen sizes.',
+      'A responsive luxury resort landing page developed using Angular 14 and TypeScript, featuring reusable components, responsive navigation, a hero slideshow, interactive image gallery, and mobile-friendly layouts.',
 
     tech: [
 
@@ -29,7 +28,11 @@ export class ProjectsComponent {
 
       'CSS3',
 
-      'JavaScript'
+      'JavaScript',
+
+      'Git',
+
+      'Netlify'
 
     ],
 
@@ -37,11 +40,11 @@ export class ProjectsComponent {
 
       'Responsive Layout',
 
-      'Hero Slideshow',
-
       'Reusable Components',
 
-      'Modern UI Design',
+      'Responsive Navigation',
+
+      'Hero Slideshow',
 
       'Mobile Navigation',
 

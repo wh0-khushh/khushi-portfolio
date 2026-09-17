@@ -7,68 +7,46 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-highlights = [
+  highlights = [
+    {
+      icon: 'web',
+      title: 'Frontend Engineering',
+      subtitle: 'Angular • TypeScript • Responsive UI'
+    },
+    {
+      icon: 'design_services',
+      title: 'Thoughtful UI',
+      subtitle: 'Responsive and user-friendly web experiences'
+    },
+    {
+      icon: 'architecture',
+      title: 'Component Architecture',
+      subtitle: 'Reusable Angular components and clean structure'
+    },
+    {
+      icon: 'trending_up',
+      title: 'Continuous Learning',
+      subtitle: 'Java • Spring Boot • Software Engineering'
+    }
+  ];
 
-{
-icon:'design_services',
-title:'Product Engineering',
-subtitle:'Building thoughtful digital experiences'
-},
-
-{
-icon:'web',
-title:'Frontend Engineering',
-subtitle:'Angular • TypeScript • Responsive UI'
-},
-
-{
-icon:'architecture',
-title:'Component Architecture',
-subtitle:'Reusable, scalable Angular applications'
-},
-
-{
-icon:'trending_up',
-title:'Continuous Learning',
-subtitle:'Java • Spring Boot • Software Engineering'
-}
-
-];
-
-stats = [
-
-{
-
-value:'1+',
-
-label:'Industry Internship'
-
-},
-
-{
-
-value:'10+',
-
-label:'Projects Built'
-
-},
-
-{
-
-value:'8+',
-
-label:'Certifications'
-
-},
-
-{
-
-value:'2023',
-
-label:'CSE Journey'
-
-}
-
-];
+  stats = [
+    {
+      value: '1+',
+      label: 'Years of Training & Internship'
+    },
+    {
+      value: '1',
+      label: 'Featured Project'
+    },
+    {
+      value: '16',
+      label: 'Credentials & Certifications'
+    },
+    {
+      value: '2023',
+      label: 'CSE Journey'
+    }
+  ];
 
 }

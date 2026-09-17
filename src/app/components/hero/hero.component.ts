@@ -8,39 +8,44 @@ import { Component, OnInit } from '@angular/core';
 
 export class HeroComponent implements OnInit {
 
-  technologies: string[] = [
+technologies: string[] = [
 
-'Angular',
+  'Angular',
 
-'TypeScript',
+  'TypeScript',
 
-'SCSS',
+  'JavaScript',
 
-'Angular Material',
+  'Angular Material',
 
-'RxJS',
+  'RxJS',
 
-'Java',
+  'HTML5',
 
-'Spring Boot',
+  'CSS3',
 
-'SQL',
+  'REST APIs',
 
-'Git',
+  'Git',
 
-'Netlify'
+  'Netlify'
 
-  ];
+];
 
 roles = [
 
-'Frontend Developer Intern',
-'Frontend Product Engineer',
-'Angular Developer',
-'UI/UX Enthusiast',
-'Building Thoughtful Digital Products'
+  'Frontend Developer Intern',
+
+  'Angular Developer',
+
+  'Frontend Engineering',
+
+  'UI/UX Enthusiast',
+
+  'Building Thoughtful Digital Products'
 
 ];
+
   currentRole = '';
 
   private roleIndex = 0;

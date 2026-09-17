@@ -27,8 +27,8 @@ export class ContactComponent {
     {
       icon: 'call',
       title: 'Phone',
-      value: '+91 85213 46569',
-      link: 'tel:+918521346569'
+      value: '+91 7903911322',
+      link: 'tel:+917903911322'
     },
 
     {
@@ -48,8 +48,8 @@ export class ContactComponent {
     {
       icon: 'business_center',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/khushi-kumari',
-      link: 'https://linkedin.com/in/khushi-kumari'
+      value: 'linkedin.com/in/khushi-kumari-b95652409',
+      link: 'https://www.linkedin.com/in/khushi-kumari-b95652409'
     }
 
   ];

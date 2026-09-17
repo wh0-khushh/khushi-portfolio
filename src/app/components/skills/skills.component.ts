@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css']
 })
-
 export class SkillsComponent {
 
   skillCategories = [
@@ -30,6 +29,8 @@ export class SkillsComponent {
 
         'Angular Material',
 
+        'RxJS',
+
         'Responsive Design'
 
       ]
@@ -38,21 +39,17 @@ export class SkillsComponent {
 
     {
 
-      title: 'Backend',
+      title: 'Backend & APIs',
 
       icon: 'dns',
 
       skills: [
 
+        'REST APIs',
+
         'Java',
 
-        'Spring Boot',
-
-        'REST API',
-
-        'SQL',
-
-        'MySQL'
+        'Spring Boot'
 
       ]
 
